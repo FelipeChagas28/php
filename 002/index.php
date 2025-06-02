@@ -6,6 +6,12 @@
     <title>002</title>
 </head>
 <body>
-    
+    <h1>Exemplo de php</h1>
+
+    <?php 
+        date_default_timezone_set("America/Sao_Paulo");
+        echo "Hoje é dia " .date("d/M/Y");
+        echo "E a hora atual é " .date("G:i:s T");
+    ?>
 </body>
 </html>
