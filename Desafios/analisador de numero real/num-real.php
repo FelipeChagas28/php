@@ -13,12 +13,14 @@
     <?php
     $numero = $_GET["numero"] ?? 0;
 
-    is_float($numero);
+    $int = (int)$numero;
+    $fracionado = $numero - $int;
 
-    if(is_float($numero)
-        
-    )
+    echo "O número <strong>" .number_format($numero, 3, ",", ".") ."</strong> na sua forma inteira é <strong>". number_format($int, 0, ",", ".") ."</strong> e sua parte fracionada é <strong>" . number_format($fracionado, 3, ",", "."). "</strong>";
+    
     ?>
+
+
 </body>
 
 </html>
