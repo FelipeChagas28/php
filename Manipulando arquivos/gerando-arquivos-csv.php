@@ -29,6 +29,6 @@ $users = [
     ["Sandro", 29, "Sandro@gmail.com"],
 ];
 
-$nomeArquivo = "users.csv"; //Indicando o arquivo que deve ser criado
+$nomeArquivo = "teste.csv"; //Indicando o arquivo que deve ser criado
 
 gerarArquivosCsv($nomeArquivo, $users); // chamando a função
